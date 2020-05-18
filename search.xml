@@ -20,8 +20,8 @@
 
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">	printf()</span><br></pre></td></tr></table></figure>
 <!--APLAYER-->
-<div id="aplayer-a4df5ccd-f0d6-9d8e-5387-860fcbbf22d1" style="margin-bottom: 20px;"></div>
-<script async="async">const ap = new APlayer({container: document.getElementById('aplayer-a4df5ccd-f0d6-9d8e-5387-860fcbbf22d1'),theme: '#222',preload: 'none',audio: [
+<div id="aplayer-b274f5cb-cbf8-9af7-3e53-ac8fce4bca77" style="margin-bottom: 20px;"></div>
+<script async="async">const ap = new APlayer({container: document.getElementById('aplayer-b274f5cb-cbf8-9af7-3e53-ac8fce4bca77'),theme: '#222',preload: 'none',audio: [
 {
 	"title": "紅蓮華",
 	"author": "LiSA",
