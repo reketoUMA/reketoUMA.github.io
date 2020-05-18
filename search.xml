@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Use LLVM Clang Instead of AppleClang in macOS Terminal</title>
-    <url>/2020/03/01/use-llvm-clang-in-macos-terminal/</url>
-    <content><![CDATA[<p>Use environment variables CC, CXX, LDFLAGS, CPPFLAGS.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">export CC&#x3D;&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;bin&#x2F;clang</span><br><span class="line">export CXX&#x3D;&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;bin&#x2F;clang++</span><br><span class="line">export LDFLAGS&#x3D;&quot;-L&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;lib&quot;</span><br><span class="line">export CPPFLAGS&#x3D;&quot;-I&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;include&quot;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>macOS</category>
-      </categories>
-      <tags>
-        <tag>Compile, C, C++, macOS</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>test</title>
     <url>/2019/11/21/test/</url>
     <content><![CDATA[<div class="note primary">
@@ -32,8 +20,8 @@
 
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">	printf()</span><br></pre></td></tr></table></figure>
 <!--APLAYER-->
-<div id="aplayer-1762206e-9ff6-d17a-5034-ddb1ab590cc9" style="margin-bottom: 20px;"></div>
-<script async="async">const ap = new APlayer({container: document.getElementById('aplayer-1762206e-9ff6-d17a-5034-ddb1ab590cc9'),theme: '#222',preload: 'none',audio: [
+<div id="aplayer-991e1142-5bb0-d860-b1b9-74e6f767403a" style="margin-bottom: 20px;"></div>
+<script async="async">const ap = new APlayer({container: document.getElementById('aplayer-991e1142-5bb0-d860-b1b9-74e6f767403a'),theme: '#222',preload: 'none',audio: [
 {
 	"title": "紅蓮華",
 	"author": "LiSA",
@@ -48,6 +36,18 @@
       </categories>
       <tags>
         <tag>121</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Use LLVM Clang Instead of AppleClang in macOS Terminal</title>
+    <url>/2020/03/01/use-llvm-clang-in-macos-terminal/</url>
+    <content><![CDATA[<p>Use environment variables CC, CXX, LDFLAGS, CPPFLAGS.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">export CC&#x3D;&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;bin&#x2F;clang</span><br><span class="line">export CXX&#x3D;&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;bin&#x2F;clang++</span><br><span class="line">export LDFLAGS&#x3D;&quot;-L&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;lib&quot;</span><br><span class="line">export CPPFLAGS&#x3D;&quot;-I&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;include&quot;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>macOS</category>
+      </categories>
+      <tags>
+        <tag>Compile, C, C++, macOS</tag>
       </tags>
   </entry>
   <entry>
