@@ -917,7 +917,7 @@ pre .javascript .function {
 }
 .main-inner {
   margin: 0 auto;
-  width: calc(100% - 20px);
+  width: calc(100% - 17.5px);
 }
 @media (min-width: 1200px) {
   .main-inner {
@@ -930,7 +930,7 @@ pre .javascript .function {
 .header-inner {
   margin: 0 auto;
   position: relative;
-  width: calc(100% - 20px);
+  width: calc(100% - 17.5px);
 }
 @media (min-width: 1200px) {
   .header-inner {
@@ -1140,7 +1140,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #9eccff;
+  background: #734fff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1377,7 +1377,7 @@ pre .javascript .function {
   box-sizing: border-box;
   margin: 0 auto;
   text-align: center;
-  width: calc(100% - 20px);
+  width: calc(100% - 17.5px);
 }
 @media (min-width: 1200px) {
   .footer-inner {
@@ -1994,7 +1994,7 @@ pre .javascript .function {
 .header {
   margin: 0 auto;
   position: relative;
-  width: calc(100% - 20px);
+  width: calc(100% - 17.5px);
 }
 @media (min-width: 1200px) {
   .header {
@@ -2047,7 +2047,7 @@ pre .javascript .function {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
   box-sizing: border-box;
   float: right;
-  padding: 40px;
+  padding: 35px;
   width: calc(100% - 252px);
 }
 @media (max-width: 991px) {
@@ -2335,7 +2335,7 @@ pre .javascript .function {
   background: #fff;
   border-radius: initial;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
-  padding: 40px;
+  padding: 35px;
 }
 .post-block + .post-block {
   border-radius: initial;
@@ -2348,7 +2348,7 @@ pre .javascript .function {
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   margin: auto;
   margin-top: 12px;
-  padding: 40px;
+  padding: 35px;
 }
 .tabs-comment {
   margin-top: 1em;
