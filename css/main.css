@@ -953,14 +953,11 @@ pre .javascript .function {
 .brand {
   background: #222;
   border-bottom: none;
-  color: #fff;
+  color: #f8c3cd;
   display: inline-block;
   line-height: 1.375em;
   padding: 0 40px;
   position: relative;
-}
-.brand:hover {
-  color: #fff;
 }
 .site-title {
   display: inline-block;
@@ -1140,7 +1137,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f91b36;
+  background: #bef098;
   border-radius: 50%;
   content: ' ';
   display: inline-block;

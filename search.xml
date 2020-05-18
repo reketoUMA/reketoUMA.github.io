@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>test</title>
+    <url>/2019/11/21/test/</url>
+    <content><![CDATA[<div class="note primary">
+            <h4 id="Primary-Header"><a href="#Primary-Header" class="headerlink" title="Primary Header"></a>Primary Header</h4><p><strong>Welcome</strong> to <a href="https://hexo.io" target="_blank" rel="noopener">Hexo!</a></p>
+          </div>
+
+<div class="note default">
+            <h4 id="Default-Header"><a href="#Default-Header" class="headerlink" title="Default Header"></a>Default Header</h4><p>Welcome to <a href="https://hexo.io" target="_blank" rel="noopener">Hexo!</a></p>
+          </div>
+
+<a id="more"></a>
+<div class="note warning">
+            <h4 id="Warning-Header"><a href="#Warning-Header" class="headerlink" title="Warning Header"></a>Warning Header</h4><p><strong>Welcome</strong> to <a href="https://hexo.io" target="_blank" rel="noopener">Hexo!</a></p>
+          </div>
+
+<div class="tabs" id="first-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#first-unique-name-1">First unique name 1</a></li><li class="tab"><a href="#first-unique-name-2">First unique name 2</a></li><li class="tab"><a href="#first-unique-name-3">First unique name 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="first-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="first-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="first-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">	printf()</span><br></pre></td></tr></table></figure>
+<!--APLAYER-->
+<div id="aplayer-799d8c5d-212d-58e4-c276-b735de33fe7a" style="margin-bottom: 20px;"></div>
+<script async="async">const ap = new APlayer({container: document.getElementById('aplayer-799d8c5d-212d-58e4-c276-b735de33fe7a'),theme: '#222',preload: 'none',audio: [
+{
+	"title": "紅蓮華",
+	"author": "LiSA",
+	"url": "//raw.githubusercontent.com/reketoUMA/reketoUMA.github.io.music/master/紅蓮華%20-%20紅蓮華.m4a",
+	"pic": "//raw.githubusercontent.com/reketoUMA/reketoUMA.github.io.photo/master/cover/紅蓮華.jpg"
+}
+
+]});</script>
+<!--/APLAYER-->]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>121</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Use LLVM Clang Instead of AppleClang in macOS Terminal</title>
+    <url>/2020/03/01/use-llvm-clang-in-macos-terminal/</url>
+    <content><![CDATA[<p>Use environment variables CC, CXX, LDFLAGS, CPPFLAGS.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">export CC&#x3D;&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;bin&#x2F;clang</span><br><span class="line">export CXX&#x3D;&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;bin&#x2F;clang++</span><br><span class="line">export LDFLAGS&#x3D;&quot;-L&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;lib&quot;</span><br><span class="line">export CPPFLAGS&#x3D;&quot;-I&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;include&quot;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>macOS</category>
+      </categories>
+      <tags>
+        <tag>Compile, C, C++, macOS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>x265 TEST</title>
     <url>/2019/11/21/x265-notes/</url>
     <content><![CDATA[<p>Collection</p>
@@ -29,56 +79,6 @@
       </categories>
       <tags>
         <tag>x265, VapourSynth</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2019/11/21/test/</url>
-    <content><![CDATA[<div class="note primary">
-            <h4 id="Primary-Header"><a href="#Primary-Header" class="headerlink" title="Primary Header"></a>Primary Header</h4><p><strong>Welcome</strong> to <a href="https://hexo.io" target="_blank" rel="noopener">Hexo!</a></p>
-          </div>
-
-<div class="note default">
-            <h4 id="Default-Header"><a href="#Default-Header" class="headerlink" title="Default Header"></a>Default Header</h4><p>Welcome to <a href="https://hexo.io" target="_blank" rel="noopener">Hexo!</a></p>
-          </div>
-
-<a id="more"></a>
-<div class="note warning">
-            <h4 id="Warning-Header"><a href="#Warning-Header" class="headerlink" title="Warning Header"></a>Warning Header</h4><p><strong>Welcome</strong> to <a href="https://hexo.io" target="_blank" rel="noopener">Hexo!</a></p>
-          </div>
-
-<div class="tabs" id="first-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#first-unique-name-1">First unique name 1</a></li><li class="tab"><a href="#first-unique-name-2">First unique name 2</a></li><li class="tab"><a href="#first-unique-name-3">First unique name 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="first-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="first-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="first-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
-
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">	printf()</span><br></pre></td></tr></table></figure>
-<!--APLAYER-->
-<div id="aplayer-b8ce1af0-b851-b121-6801-fed1bd256ada" style="margin-bottom: 20px;"></div>
-<script async="async">const ap = new APlayer({container: document.getElementById('aplayer-b8ce1af0-b851-b121-6801-fed1bd256ada'),theme: '#222',preload: 'none',audio: [
-{
-	"title": "紅蓮華",
-	"author": "LiSA",
-	"url": "//raw.githubusercontent.com/reketoUMA/reketoUMA.github.io.music/master/紅蓮華%20-%20紅蓮華.m4a",
-	"pic": "//raw.githubusercontent.com/reketoUMA/reketoUMA.github.io.photo/master/cover/紅蓮華.jpg"
-}
-
-]});</script>
-<!--/APLAYER-->]]></content>
-      <categories>
-        <category>test</category>
-      </categories>
-      <tags>
-        <tag>121</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Use LLVM Clang Instead of AppleClang in macOS Terminal</title>
-    <url>/2020/03/01/use-llvm-clang-in-macos-terminal/</url>
-    <content><![CDATA[<p>Use environment variables CC, CXX, LDFLAGS, CPPFLAGS.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">export CC&#x3D;&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;bin&#x2F;clang</span><br><span class="line">export CXX&#x3D;&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;bin&#x2F;clang++</span><br><span class="line">export LDFLAGS&#x3D;&quot;-L&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;lib&quot;</span><br><span class="line">export CPPFLAGS&#x3D;&quot;-I&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;include&quot;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>macOS</category>
-      </categories>
-      <tags>
-        <tag>Compile, C, C++, macOS</tag>
       </tags>
   </entry>
 </search>
