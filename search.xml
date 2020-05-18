@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Use LLVM Clang Instead of AppleClang in macOS Terminal</title>
+    <url>/2020/03/01/use-llvm-clang-in-macos-terminal/</url>
+    <content><![CDATA[<p>Use environment variables CC, CXX, LDFLAGS, CPPFLAGS.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">export CC&#x3D;&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;bin&#x2F;clang</span><br><span class="line">export CXX&#x3D;&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;bin&#x2F;clang++</span><br><span class="line">export LDFLAGS&#x3D;&quot;-L&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;lib&quot;</span><br><span class="line">export CPPFLAGS&#x3D;&quot;-I&#x2F;usr&#x2F;local&#x2F;opt&#x2F;llvm&#x2F;include&quot;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>macOS</category>
+      </categories>
+      <tags>
+        <tag>Compile, C, C++, macOS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>test</title>
+    <url>/2019/11/21/test/</url>
+    <content><![CDATA[<div class="note primary">
+            <h4 id="Primary-Header"><a href="#Primary-Header" class="headerlink" title="Primary Header"></a>Primary Header</h4><p><strong>Welcome</strong> to <a href="https://hexo.io" target="_blank" rel="noopener">Hexo!</a></p>
+          </div>
+
+<div class="note default">
+            <h4 id="Default-Header"><a href="#Default-Header" class="headerlink" title="Default Header"></a>Default Header</h4><p>Welcome to <a href="https://hexo.io" target="_blank" rel="noopener">Hexo!</a></p>
+          </div>
+
+<a id="more"></a>
+<div class="note warning">
+            <h4 id="Warning-Header"><a href="#Warning-Header" class="headerlink" title="Warning Header"></a>Warning Header</h4><p><strong>Welcome</strong> to <a href="https://hexo.io" target="_blank" rel="noopener">Hexo!</a></p>
+          </div>
+
+<div class="tabs" id="first-unique-name"><ul class="nav-tabs"><li class="tab active"><a href="#first-unique-name-1">First unique name 1</a></li><li class="tab"><a href="#first-unique-name-2">First unique name 2</a></li><li class="tab"><a href="#first-unique-name-3">First unique name 3</a></li></ul><div class="tab-content"><div class="tab-pane active" id="first-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="first-unique-name-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-pane" id="first-unique-name-3"><p><strong>This is Tab 3.</strong></p></div></div></div>
+
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">	printf()</span><br></pre></td></tr></table></figure>
+<!--APLAYER-->
+<div id="aplayer-1762206e-9ff6-d17a-5034-ddb1ab590cc9" style="margin-bottom: 20px;"></div>
+<script async="async">const ap = new APlayer({container: document.getElementById('aplayer-1762206e-9ff6-d17a-5034-ddb1ab590cc9'),theme: '#222',preload: 'none',audio: [
+{
+	"title": "紅蓮華",
+	"author": "LiSA",
+	"url": "//raw.githubusercontent.com/reketoUMA/reketoUMA.github.io.music/master/紅蓮華%20-%20紅蓮華.m4a",
+	"pic": "//raw.githubusercontent.com/reketoUMA/reketoUMA.github.io.photo/master/cover/紅蓮華.jpg"
+}
+
+]});</script>
+<!--/APLAYER-->]]></content>
+      <categories>
+        <category>test</category>
+      </categories>
+      <tags>
+        <tag>121</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>x265 TEST</title>
+    <url>/2019/11/21/x265-notes/</url>
+    <content><![CDATA[<p>Collection</p>
+<a id="more"></a>
+
+<h4 id="LIVE"><a href="#LIVE" class="headerlink" title="LIVE"></a>LIVE</h4><p>vspipe –y4m “SCRIPT.vpy” - | x265</p>
+<p>–y4m<br>–pools +<br>–pmode</p>
+<p>–profile main10<br>–colormatrix bt709<br>–depth 10<br>–no-open-gop<br>–keyint 360<br>–min-keyint 1<br>–deblock -1:-1</p>
+<p>–preset slower<br>–b-intra<br>–ctu 32<br>–qg-size 8<br>–me 3<br>–subme 5<br>–merange 32<br>–no-amp<br>–no-rect<br>–weightb<br>–bframes 6<br>–rc-lookahead 80<br>–ref 4<br>–rd 3</p>
+<p>–aq-mode 2<br>–aq-strength 0.9<br>–crf 20.0<br>–no-sao<br>–psy-rd 2.0<br>–psy-rdoq 1.0<br>–rdoq-level 2<br>–pbratio 1.2<br>–cbqpoffs -2<br>–crqpoffs -2<br>–qcomp 0.65<br>–no-strong-intra-smoothing </p>
+<p>–output “output.hevc” -</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vspipe --y4m &quot;SCRIPT.vpy&quot; - | x265 --y4m --pools + --pmode --profile main10 --colormatrix bt709 -D 10 --no-open-gop --keyint 360 --min-keyint 1 --deblock -1:-1 --preset slower --b-intra --ctu 32 --qg-size 8 --me 3 --subme 5 --merange 38 --no-amp --no-rect --weightb --bframes 6 --rc-lookahead 80 --ref 4 --rd 5 --aq-mode 3 --aq-strength 0.7 --crf 20.0 --no-sao --psy-rd 2.0 --psy-rdoq 1.0 --rdoq-level 2 --pbratio 1.2 --cbqpoffs -1 --crqpoffs -1 --qcomp 0.65 --no-strong-intra-smoothing --output &quot;output.hevc&quot; -</span><br></pre></td></tr></table></figure>
+
+<hr>
+<h4 id="Anime"><a href="#Anime" class="headerlink" title="Anime"></a>Anime</h4><p>–y4m<br>–pools +<br>–pmode </p>
+<p>–profile main10<br>–colormatrix bt709<br>–no-open-gop<br>–keyint 360<br>–min-keyint 1<br>–deblock -1:-1 </p>
+<p>–preset slower<br>–b-intra<br>–ctu 32<br>–qg-size 8<br>–me 3<br>–subme 5<br>–merange 32<br>–no-amp<br>–no-rect<br>–weightb<br>–bframes 6<br>–rc-lookahead 80<br>–ref 4<br>–rd 5 </p>
+<p>–aq-mode 1<br>–aq-strength 0.8<br>–crf 16.0<br>–no-sao<br>–psy-rd 2.0<br>–psy-rdoq 1.0<br>–rdoq-level 2<br>–pbratio 1.2<br>–cbqpoffs -1<br>–crqpoffs -1<br>–qcomp 0.65<br>–no-strong-intra-smoothing </p>
+<p>–output “output.hevc” -</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vspipe --y4m &quot;SCRIPT.vpy&quot; - | x265 --y4m --pools + --pmode --profile main10 --colormatrix bt709 -D 10 --no-open-gop --keyint 360 --min-keyint 1 --deblock -1:-1 --preset slower --b-intra --ctu 32 --qg-size 8 --me 3 --subme 5 --merange 32 --no-amp --no-rect --weightb --bframes 6 --rc-lookahead 80 --ref 4 --rd 5 --aq-mode 1 --aq-strength 0.8 --crf 16.0 --no-sao --psy-rd 2.0 --psy-rdoq 1.0 --rdoq-level 2 --pbratio 1.2 --cbqpoffs -1 --crqpoffs -1 --qcomp 0.65 --no-strong-intra-smoothing --output &quot;output.hevc&quot; -</span><br></pre></td></tr></table></figure>
+
+<h3 id="REPEAT"><a href="#REPEAT" class="headerlink" title="REPEAT"></a>REPEAT</h3><p>ffmpeg -loop 1 -i INPUT_FILE -vcodec libx265 -pix_fmt yuv420p10le -x265-params level=4.1 -crf 16 -vframes 480 -r 23.976 menu.mkv</p>
+]]></content>
+      <categories>
+        <category>BDRip</category>
+      </categories>
+      <tags>
+        <tag>x265, VapourSynth</tag>
+      </tags>
+  </entry>
+</search>
